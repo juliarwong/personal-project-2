@@ -1,0 +1,42 @@
+// Define global styles
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    #buttonDiv {
+    display: flex;
+    justify-content: center;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+// Style the data container
+#dataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+// Style individual data items
+#dataContainer > div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+button {
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
